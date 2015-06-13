@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test_spy1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\fsc\AppData\Local\Temp\RSP103F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/test_spy1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VS6.0\MyProjects\test_spy1\MainCPP.cpp"
+]
+Creating command line "cl.exe @C:\Users\fsc\AppData\Local\Temp\RSP103F.tmp" 
+Creating temporary file "C:\Users\fsc\AppData\Local\Temp\RSP1040.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/test_spy1.pdb" /debug /machine:I386 /out:"Debug/test_spy1.exe" /pdbtype:sept 
+.\Debug\MainCPP.obj
+]
+Creating command line "link.exe @C:\Users\fsc\AppData\Local\Temp\RSP1040.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainCPP.cpp
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(20) : error C2065: 'AnimateWindow' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(20) : error C2065: 'AW_HIDE' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(20) : error C2065: 'AW_BLEND' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(29) : error C2065: 'IDC_CAPTION' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(31) : error C2065: 'IDC_CLASSNAME' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(32) : error C2664: '_ltow' : cannot convert parameter 2 from 'char [256]' to 'unsigned short *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(33) : error C2065: 'IDC_CLASSATOM' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(34) : error C2664: '_ltow' : cannot convert parameter 2 from 'char [256]' to 'unsigned short *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(35) : error C2065: 'IDC_STYLE' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(36) : error C2664: '_ltow' : cannot convert parameter 2 from 'char [256]' to 'unsigned short *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(37) : error C2065: 'IDC_EXTSTYLE' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(38) : error C2664: '_ltow' : cannot convert parameter 2 from 'char [256]' to 'unsigned short *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(39) : error C2065: 'IDC_ID' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(49) : error C2065: 'IDC_QUIT' : undeclared identifier
+e:\vs6.0\myprojects\test_spy1\maincpp.cpp(59) : error C2065: 'IDD_MAINDLG' : undeclared identifier
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+test_spy1.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
